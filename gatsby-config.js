@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `SlashBin`,
+    description: `SlashBin is a mobile application that uses the power of Machine Learning to help fight climate change by recycling correctly.`,
+    author: `slashbin`,
+  },
+  plugins: [`gatsby-plugin-postcss`, `gatsby-plugin-react-helmet`],
 }

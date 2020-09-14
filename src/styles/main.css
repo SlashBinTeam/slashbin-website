@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: rgb(15, 15, 15);
+  background: linear-gradient(
+    312deg,
+    rgba(15, 15, 15, 1) 0%,
+    rgba(34, 34, 34, 1) 49%,
+    rgba(61, 61, 61, 1) 100%
+  );
+}
